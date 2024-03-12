@@ -35,7 +35,7 @@ public class Bank {
 
 
                   String name =  Main.ui.promptText("Kundens navn: ");
-                  createCustomer(name, 0);
+                  this.createCustomer(name, 0);
 
 
 
@@ -65,7 +65,7 @@ public class Bank {
                  //sæt currentCusto til denne kunde
                  break;
          }
-
+         Main.saveData(this.customers);
         }
 
 
