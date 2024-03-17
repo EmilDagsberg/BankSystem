@@ -31,7 +31,7 @@ public class Main {
             System.out.println("File was not found");
         }
 
-        bank.userDialog();
+        bank.runDialog();
     }
 
 
