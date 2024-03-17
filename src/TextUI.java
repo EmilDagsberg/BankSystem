@@ -10,7 +10,6 @@ public class TextUI {
         for (String option : list) {
             System.out.println(option);
         }
-
     }
     public String promptText(String msg){
         System.out.println(msg);
@@ -18,7 +17,6 @@ public class TextUI {
         return input;
     }
     public int promptNumeric(String msg){
-
         String input = promptText(msg);         //Give brugere et sted at placere sit svar og vente pÃ¥ svaret
         int number = Integer.parseInt(input);       //Konvertere svaret til et tal
         return number;

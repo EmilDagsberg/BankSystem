@@ -15,9 +15,11 @@ public class Bank {
         listOfActions.add("3) Indsæt/hæv penge");
         listOfActions.add("4) afslut");
     }
-    public void createCustomer(){
-        String input =  Main.ui.promptText("Kundens navn: ");
-        currentCustomer =  new Customer(input, 0);
+    public void createCustomer(String name, int balance){
+        if(name == null) {
+            name = Main.ui.promptText("Kundens navn: ");
+        }
+        currentCustomer =  new Customer(name, balance);
         this.customers.add(currentCustomer);
     }
     public void runDialog(){
@@ -31,7 +33,7 @@ public class Bank {
              case 1:
                  //Opret kunde
 
-                  this.createCustomer();
+                  this.createCustomer(null, 0);
                   break;
               case 2:
                   // Vis kunder
