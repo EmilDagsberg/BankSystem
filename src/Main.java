@@ -19,10 +19,10 @@ public class Main {
             scan.nextLine();//skip header
 
             while(scan.hasNextLine()){
-                String s = scan.nextLine(); // "tess, 40000"
-                String[] line= s.split(",");
-                String name = line[0];
-                int balance = Integer.parseInt(line[1].trim());
+                String line = scan.nextLine(); // "tess, 40000"
+                String[] values= line.split(",");
+                String name = values[0];
+                int balance = Integer.parseInt(values[1].trim());
                 bank.createCustomer(name,balance);
 
             }
