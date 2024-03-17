@@ -12,42 +12,29 @@ class Bank{
  - Customer currentCustomer
  + Bank(String name)
  - void createCustomer(String name)
- + void userDialog()
- + void toString()
+ + void runDialog()
+ + void displayCustomers()
 }
 
 class Customer{
 - String name
-- ArrayList<Account> accounts
-- Account currentAccount
-+ Customer(String name)
-+ void createAccount(String name)
-+ void deposit(int amount)
-+ String getAccountDetails(int accountID)
-+ void setCurrentAccount(Account account)
-+ String toString()
-}
-class Account{
-- String name
 - int balance
-+ Account(String name)
-+ void setBalance(int amount)
-+ int getBalance();
++ Customer(String name)
++ void deposit(int amount)
++ int getBalance()
 + String toString()
-+ String getName()
 }
 
-class UI{
+class TextUI{
 - Scanner scanner
 + void displayMsg(String s)
 + int promptNumeric(String msg)
 + String promptText(String msg)
 + int promptChoice(String msg, ArrayList<String> list)
-
 }
 
-Main *-- UI
+Main *-- TextUI
 Main *-- Bank
 Bank *-- Customer
-Customer *-- Account
+
 @enduml
