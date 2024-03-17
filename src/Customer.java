@@ -22,4 +22,7 @@ public class Customer {
         return balance;
     }
 
+    public String getName() {
+        return name;
+    }
 }

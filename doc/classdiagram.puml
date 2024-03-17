@@ -11,8 +11,8 @@ class Bank{
  - ArrayList<String> listOfActions
  - Customer currentCustomer
  + Bank(String name)
- - void createCustomer(String name, int balance)
  + void runDialog()
+ - void createCustomer(String name, int balance)
  + void displayCustomers()
 }
 
@@ -23,6 +23,7 @@ class Customer{
 + void deposit(int amount)
 + int getBalance()
 + String toString()
++ String getName()
 }
 
 class TextUI{
