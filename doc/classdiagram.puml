@@ -1,6 +1,7 @@
 @startuml
 class Main{
 + static UI ui
++ static String path
 + static void main(String[] args)
 }
 
