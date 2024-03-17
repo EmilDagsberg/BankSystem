@@ -1,4 +1,3 @@
-import utils.UI;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
@@ -8,7 +7,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    static UI ui = new UI();
+    static TextUI ui = new TextUI();
     static String path = "data/customers.csv";
 
     public static void main(String[] args) {
