@@ -11,7 +11,7 @@ class Bank{
  - ArrayList<String> listOfActions
  - Customer currentCustomer
  + Bank(String name)
- - void createCustomer(String name)
+ - void createCustomer(String name, int balance)
  + void runDialog()
  + void displayCustomers()
 }
