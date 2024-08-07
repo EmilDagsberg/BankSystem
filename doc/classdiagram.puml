@@ -6,7 +6,7 @@ class Main{
 class Bank{
  - String name
  - ArrayList<Customer> customers
- + Bank(String name)
+ + Bank(String)
  + void addCustomer(Customer)
  + String toString()
 }
@@ -14,8 +14,8 @@ class Bank{
 class Customer{
  - String name
  - int balance
- + Customer(String name, double balance)
- + void setBalance(double amount)
+ + Customer(String, double)
+ + void setBalance(double)
  + String toString()
 
 }
