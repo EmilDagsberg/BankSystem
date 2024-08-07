@@ -6,6 +6,7 @@ public class Bank {
     private List<Customer> customers;
 
     public Bank(String name) {
+        this.name = name;
         customers = new ArrayList<>();
     }
     public void addCustomer(Customer c){
