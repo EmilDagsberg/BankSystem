@@ -10,6 +10,7 @@
  *    - constructors
  *    - getters (and setters)
  *    - toString
+ *    - creating a method for adding object to list
  *
  *    Main class
  *
