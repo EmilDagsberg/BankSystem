@@ -1,7 +1,7 @@
 /** This example demonstrates the foundations of building an object-oriented system in Java.
  *  It uses the domain of a bank
  *
- *  Main branch, subjects and techniques:
+ *  Main branch demonstrates the following subjects and techniques:
  *
  *    Customer and Bank classes
  *
