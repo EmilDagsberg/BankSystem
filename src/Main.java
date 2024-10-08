@@ -21,7 +21,7 @@
  *
  *  THINGS TO CONSIDER
  *    The creation of objects is fixed in the main method.
- *    What if we want to give the user the ability to add new customers to the bank?
+ *    What if we want to give the user the ability to add new customers to the bank? (see branch add-hoc object creation)
  *
  */
 
