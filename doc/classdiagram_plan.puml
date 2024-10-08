@@ -8,13 +8,16 @@ class Bank{
  - ArrayList<Customer> customers
  + Bank(String)
  + void addCustomer(Customer)
+ + List getCustomers()
+ + void runCreateCustomersDialog()
  + String toString()
 }
 
 class Customer{
  - String name
- - int balance
+ - double balance
  + Customer(String, int)
+ + void addToBalance(int)
  + void setBalance(int)
  + String toString()
 
