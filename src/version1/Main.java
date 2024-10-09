@@ -1,9 +1,11 @@
+package version1;
+
 /** This example demonstrates the foundations of building an object-oriented system in Java.
  *  It uses the domain of a bank
  *
- *  Main branch, subjects and techniques:
+ *  version1.Main branch, subjects and techniques:
  *
- *    Customer and Bank classes
+ *    version1.Customer and version1.Bank classes
  *
  *    - access modifiers
  *    - this keyword
@@ -12,7 +14,7 @@
  *    - toString
  *    - creating a method for adding object to list
  *
- *    Main class
+ *    version1.Main class
  *
  *    - instantiation
  *    - calling instance methods
