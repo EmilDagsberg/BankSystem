@@ -34,7 +34,7 @@ class Main {
 
         Bank bank = new Bank("Sparekassen");
 
-        Customer c1 = new Customer("Kamala",3000);
+        /*Customer c1 = new Customer("Kamala",3000);
         c1.setBalance(4000);
         c1.addToBalance(1000);
 
@@ -45,6 +45,8 @@ class Main {
         c2.addToBalance(500);
 
         bank.addCustomer(c2);
+        */
+
 
         System.out.print(bank);
 
