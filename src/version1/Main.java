@@ -33,6 +33,9 @@ class Main {
     public static void main(String[] args) {
 
         Bank bank = new Bank("Sparekassen");
+        if(bank.getCustomers().isEmpty()){
+            bank.runCreatCustomersDialog();
+        }
 
         /*Customer c1 = new Customer("Kamala",3000);
         c1.setBalance(4000);
