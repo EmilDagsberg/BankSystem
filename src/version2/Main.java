@@ -1,3 +1,4 @@
+package version2;
 /** This example demonstrates the foundations of building an object-oriented system in Java.
  *  It uses the domain of a bank
  *

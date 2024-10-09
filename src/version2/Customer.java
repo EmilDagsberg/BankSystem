@@ -1,5 +1,5 @@
 
-
+package version2;
 
 public class Customer {
 
